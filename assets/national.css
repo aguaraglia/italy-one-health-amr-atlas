@@ -15,9 +15,13 @@ body.national-home .intro {
   align-items: flex-end;
   padding-bottom: 1.25rem;
 }
-body.national-home .intro h1 {
-  font-family: Georgia, Cambria, "Times New Roman", serif;
-  font-weight: 600;
+/* h1 inherits the regional dashboard title style (Inter, 760). */
+.digest-note {
+  max-width: 780px;
+  margin: .85rem 0 0;
+  color: #617a91;
+  font-size: .87rem;
+  line-height: 1.5;
 }
 
 .overview-strip.national-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -253,6 +257,7 @@ body.national-home .intro h1 {
 }
 @media (max-width: 760px) {
   body.national-home .intro { flex-direction: column; align-items: flex-start; }
+  .national-footer { flex-direction: column; }
 }
 
 .edition-mark.edition-silhouette {
