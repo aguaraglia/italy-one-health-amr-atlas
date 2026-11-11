@@ -271,3 +271,15 @@ body.national-home .intro {
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
+
+/* Italy mark: tall, narrow outline needs more of the tile to match the regional marks. */
+.edition-mark.edition-mark-italia img {
+  width: 44px;
+  height: 44px;
+}
+.global-brand .brand-code-icon[style*="italia-mark"] {
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  width: 36px;
+  height: 42px;
+}
