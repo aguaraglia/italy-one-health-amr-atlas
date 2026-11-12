@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atlante AMR · One Health Italia</title>
-  <meta name="description" content="Atlante AMR: portale nazionale delle edizioni regionali One Health sull’antimicrobico-resistenza (Sardegna, Lombardia). Evidenze documentate con fonte e anno. Un progetto di CodexVitae ETS.">
+  <meta name="description" content="Atlante AMR: portale nazionale delle edizioni regionali One Health sull’antimicrobico-resistenza (Sardegna, Lombardia, Emilia-Romagna). Evidenze documentate con fonte e anno. Un progetto di CodexVitae ETS.">
   <meta name="author" content="CodexVitae ETS">
   <link rel="canonical" href="https://atlanteamr.it/">
   <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
   <header class="global-site-header">
     <div class="global-header-inner">
       <a class="global-brand" href="./" aria-label="Atlante AMR · One Health Italia"><span class="brand-code brand-code-icon" style="--brand-icon:url('/public/brand/italia-mark.svg')" aria-hidden="true">ITA</span><span class="global-brand-name">Italia<br>One Health</span><span class="global-brand-divider" aria-hidden="true"></span><span class="global-brand-atlas">Atlante<br>AMR</span></a>
-      <nav class="global-nav" aria-label="Navigazione principale"><a class="active" href="./">Portale</a><a href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">Sardegna</a><a href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">Lombardia</a><a href="#progetto">Progetto</a><a href="#pillole">Divulgazione</a></nav>
+      <nav class="global-nav" aria-label="Navigazione principale"><a class="active" href="./">Portale</a><a data-edition="sardegna" href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">Sardegna</a><a data-edition="lombardia" href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">Lombardia</a><a data-edition="emilia-romagna" href="https://aguaraglia.github.io/emilia-romagna-one-health-amr-atlas/">Emilia-Romagna</a><a href="#progetto">Progetto</a><a href="#pillole">Divulgazione</a></nav>
     </div>
   </header>
 
@@ -31,7 +31,7 @@
     <div class="dashboard-workspace">
       <header class="workspace-topbar">
         <nav class="workspace-nav" aria-label="Sezioni della pagina"><a class="active" href="./">Panoramica</a><a href="#edizioni">Edizioni</a><a href="#progetto">Progetto</a><a href="#pillole">Divulgazione</a></nav>
-        <span class="status">2 edizioni regionali pubblicate</span>
+        <span class="status">3 edizioni regionali pubblicate</span>
       </header>
 
       <main class="workspace-main">
@@ -63,7 +63,7 @@
         </section>
 
         <section class="overview-strip national-strip" aria-label="Quadro del portale">
-          <div><strong>2</strong><span>edizioni pubblicate</span></div>
+          <div><strong>3</strong><span>edizioni pubblicate</span></div>
           <div><strong>12</strong><span>moduli divulgativi</span></div>
           <div><strong>4</strong><span>ambiti One Health</span></div>
         </section>
@@ -83,18 +83,25 @@
               <p>Quadro nazionale in preparazione. Non sarà la somma dei dati regionali: ogni edizione conserva fonti, scala e limiti propri.</p>
               <span class="rail-link">In preparazione</span>
             </article>
-            <a class="edition-card" href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">
+            <a class="edition-card" data-edition="sardegna" href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">
               <span class="edition-mark edition-silhouette" aria-hidden="true"><img src="public/brand/sardinia-island-icon.png" alt=""></span>
               <p class="section-kicker">EDIZIONE PUBBLICATA</p>
               <h3>Sardegna</h3>
               <p>Sardinia One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
               <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
             </a>
-            <a class="edition-card" href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">
+            <a class="edition-card" data-edition="lombardia" href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">
               <span class="edition-mark edition-silhouette" aria-hidden="true"><img src="public/brand/lombardia-region-mark.svg" alt=""></span>
               <p class="section-kicker">EDIZIONE PUBBLICATA</p>
               <h3>Lombardia</h3>
               <p>Lombardy One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="emilia-romagna" href="https://aguaraglia.github.io/emilia-romagna-one-health-amr-atlas/">
+              <span class="edition-mark edition-silhouette edition-mark-emilia" aria-hidden="true"><img src="public/brand/emilia-romagna-region-mark.svg" alt=""></span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Emilia-Romagna</h3>
+              <p>Emilia-Romagna One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
               <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
             </a>
           </div>
@@ -184,8 +191,9 @@
 
   <footer class="national-footer">
     <span>Atlante AMR · un progetto di CodexVitae ETS</span>
-    <span><a href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">Edizione Sardegna</a> · <a href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">Edizione Lombardia</a></span>
+    <span><a data-edition="sardegna" href="https://aguaraglia.github.io/sardinia-one-health-amr-atlas/">Edizione Sardegna</a> · <a data-edition="lombardia" href="https://aguaraglia.github.io/lombardy-one-health-amr-atlas/">Edizione Lombardia</a> · <a data-edition="emilia-romagna" href="https://aguaraglia.github.io/emilia-romagna-one-health-amr-atlas/">Edizione Emilia-Romagna</a></span>
   </footer>
+  <script src="assets/editions.js"></script>
   <script data-goatcounter="https://atlanteamr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
