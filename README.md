@@ -8,8 +8,8 @@ Sito: https://atlanteamr.it/
 
 Edizioni regionali:
 
-- Sardegna: https://github.com/aguaraglia/sardinia-one-health-amr-atlas
-- Lombardia: https://github.com/aguaraglia/lombardy-one-health-amr-atlas
-- Emilia-Romagna: https://github.com/aguaraglia/emilia-romagna-one-health-amr-atlas
+- Sardegna: https://sardegna.atlanteamr.it/
+- Lombardia: https://lombardia.atlanteamr.it/
+- Emilia-Romagna: https://emilia-romagna.atlanteamr.it/
 
 Statistiche di visita: GoatCounter (senza cookie, nessun dato personale memorizzato).

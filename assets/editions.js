@@ -1,11 +1,10 @@
-/* Basi delle edizioni regionali. Per passare ai sottodomini
-   (sardegna, lombardia, emilia-romagna).atlanteamr.it aggiornare solo questo oggetto.
+/* Basi delle edizioni regionali: sardegna, lombardia ed emilia-romagna.atlanteamr.it.
    Gli href nel markup sono il fallback senza JavaScript e devono restare uguali. */
 (function () {
   var editions = {
-    sardegna: "https://aguaraglia.github.io/sardinia-one-health-amr-atlas/",
-    lombardia: "https://aguaraglia.github.io/lombardy-one-health-amr-atlas/",
-    "emilia-romagna": "https://aguaraglia.github.io/emilia-romagna-one-health-amr-atlas/"
+    sardegna: "https://sardegna.atlanteamr.it/",
+    lombardia: "https://lombardia.atlanteamr.it/",
+    "emilia-romagna": "https://emilia-romagna.atlanteamr.it/"
   };
   var nodes = document.querySelectorAll("[data-edition]");
   for (var i = 0; i < nodes.length; i++) {
