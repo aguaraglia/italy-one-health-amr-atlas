@@ -233,17 +233,30 @@ body.national-home .intro {
 .pill-body a { color: #087d9c; font-weight: 800; text-decoration: none; }
 .pill-body a:hover { text-decoration: underline; }
 
-a.pill-card {
+a.pill-card:link,
+a.pill-card:visited,
+a.pill-card:hover,
+a.pill-card:focus,
+a.pill-card:focus-visible,
+a.pill-card:active {
   display: grid;
   grid-template-columns: 34px minmax(0, 1fr);
   gap: .55rem .7rem;
   padding: .95rem 1rem;
   text-decoration: none;
+  text-decoration-line: none;
 }
 a.pill-card:hover,
+a.pill-card:focus,
 a.pill-card:focus-visible {
   background: #fff;
-  border-color: #c9d8e4;
+  border-color: #9bb8cc;
+  color: #0c5078;
+}
+a.pill-card:hover strong,
+a.pill-card:focus strong,
+a.pill-card:focus-visible strong {
+  color: #0c5078;
 }
 a.pill-card:focus-visible {
   outline: 2px solid #1595aa;
@@ -263,13 +276,23 @@ a.pill-card em {
   font-style: normal;
   line-height: 1.4;
 }
+.pill-group-label {
+  margin: 2.1rem 0 0;
+  padding-top: 1.15rem;
+  border-top: 2px solid #143b60;
+  color: #10375c;
+  font-size: 1.2rem;
+  font-weight: 750;
+  letter-spacing: -.02em;
+}
 .pill-group-title {
-  margin: 1.55rem 0 0;
+  margin: 1.35rem 0 0;
   color: #143b60;
   font-size: 1rem;
   font-weight: 750;
   letter-spacing: -.01em;
 }
+.pill-group-label + .pill-group-title { margin-top: .7rem; }
 
 .national-footer {
   display: flex;
