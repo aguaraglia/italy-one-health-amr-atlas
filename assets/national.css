@@ -233,6 +233,44 @@ body.national-home .intro {
 .pill-body a { color: #087d9c; font-weight: 800; text-decoration: none; }
 .pill-body a:hover { text-decoration: underline; }
 
+a.pill-card {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: .55rem .7rem;
+  padding: .95rem 1rem;
+  text-decoration: none;
+}
+a.pill-card:hover,
+a.pill-card:focus-visible {
+  background: #fff;
+  border-color: #c9d8e4;
+}
+a.pill-card:focus-visible {
+  outline: 2px solid #1595aa;
+  outline-offset: 2px;
+}
+a.pill-card strong {
+  display: block;
+  color: #143b60;
+  font-size: .86rem;
+  line-height: 1.3;
+}
+a.pill-card em {
+  display: block;
+  margin-top: .3rem;
+  color: #657e95;
+  font-size: .76rem;
+  font-style: normal;
+  line-height: 1.4;
+}
+.pill-group-title {
+  margin: 1.55rem 0 0;
+  color: #143b60;
+  font-size: 1rem;
+  font-weight: 750;
+  letter-spacing: -.01em;
+}
+
 .national-footer {
   display: flex;
   justify-content: space-between;
