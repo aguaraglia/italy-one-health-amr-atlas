@@ -19,7 +19,8 @@
     puglia: "https://puglia.atlanteamr.it/",
     basilicata: "https://basilicata.atlanteamr.it/",
     calabria: "https://calabria.atlanteamr.it/",
-    sardegna: "https://sardegna.atlanteamr.it/"
+    sardegna: "https://sardegna.atlanteamr.it/",
+    sicilia: "https://sicilia.atlanteamr.it/"
   };
   var nodes = document.querySelectorAll("[data-edition]");
   for (var i = 0; i < nodes.length; i++) {

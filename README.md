@@ -27,5 +27,6 @@ Edizioni regionali, da nord a sud, sui sottodomini di atlanteamr.it.
 - Basilicata: https://basilicata.atlanteamr.it/
 - Calabria: https://calabria.atlanteamr.it/
 - Sardegna: https://sardegna.atlanteamr.it/
+- Sicilia: https://sicilia.atlanteamr.it/
 
 Statistiche di visita: GoatCounter (senza cookie, nessun dato personale memorizzato).
