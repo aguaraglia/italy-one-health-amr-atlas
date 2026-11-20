@@ -16,6 +16,8 @@
     abruzzo: "https://abruzzo.atlanteamr.it/",
     molise: "https://molise.atlanteamr.it/",
     campania: "https://campania.atlanteamr.it/",
+    basilicata: "https://basilicata.atlanteamr.it/",
+    calabria: "https://calabria.atlanteamr.it/",
     sardegna: "https://sardegna.atlanteamr.it/"
   };
   var nodes = document.querySelectorAll("[data-edition]");
