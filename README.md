@@ -23,6 +23,7 @@ Edizioni regionali, da nord a sud, sui sottodomini di atlanteamr.it.
 - Abruzzo: https://abruzzo.atlanteamr.it/
 - Molise: https://molise.atlanteamr.it/
 - Campania: https://campania.atlanteamr.it/
+- Puglia: https://puglia.atlanteamr.it/
 - Basilicata: https://basilicata.atlanteamr.it/
 - Calabria: https://calabria.atlanteamr.it/
 - Sardegna: https://sardegna.atlanteamr.it/
