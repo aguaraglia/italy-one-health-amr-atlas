@@ -6,23 +6,23 @@ I conteggi regionali non si sommano: ogni edizione conserva fonti, scale e limit
 
 Sito: https://atlanteamr.it/
 
-Edizioni regionali, da nord a sud. Lombardia, Emilia-Romagna e Sardegna restano sui sottodomini già pubblicati; le altre edizioni sono su GitHub Pages.
+Edizioni regionali, da nord a sud, sui sottodomini di atlanteamr.it.
 
-- Valle d’Aosta: https://aguaraglia.github.io/valle-d-aosta-one-health-amr-atlas/
-- Piemonte: https://aguaraglia.github.io/piemonte-one-health-amr-atlas/
+- Valle d’Aosta: https://valle-d-aosta.atlanteamr.it/
+- Piemonte: https://piemonte.atlanteamr.it/
 - Lombardia: https://lombardia.atlanteamr.it/
-- Trentino-Alto Adige: https://aguaraglia.github.io/trentino-alto-adige-one-health-amr-atlas/
-- Veneto: https://aguaraglia.github.io/veneto-one-health-amr-atlas/
-- Friuli Venezia Giulia: https://aguaraglia.github.io/friuli-venezia-giulia-one-health-amr-atlas/
-- Liguria: https://aguaraglia.github.io/liguria-one-health-amr-atlas/
+- Trentino-Alto Adige: https://trentino-alto-adige.atlanteamr.it/
+- Veneto: https://veneto.atlanteamr.it/
+- Friuli Venezia Giulia: https://friuli-venezia-giulia.atlanteamr.it/
+- Liguria: https://liguria.atlanteamr.it/
 - Emilia-Romagna: https://emilia-romagna.atlanteamr.it/
-- Toscana: https://aguaraglia.github.io/toscana-one-health-amr-atlas/
-- Umbria: https://aguaraglia.github.io/umbria-one-health-amr-atlas/
-- Marche: https://aguaraglia.github.io/marche-one-health-amr-atlas/
-- Lazio: https://aguaraglia.github.io/lazio-one-health-amr-atlas/
-- Abruzzo: https://aguaraglia.github.io/abruzzo-one-health-amr-atlas/
-- Molise: https://aguaraglia.github.io/molise-one-health-amr-atlas/
-- Campania: https://aguaraglia.github.io/campania-one-health-amr-atlas/
+- Toscana: https://toscana.atlanteamr.it/
+- Umbria: https://umbria.atlanteamr.it/
+- Marche: https://marche.atlanteamr.it/
+- Lazio: https://lazio.atlanteamr.it/
+- Abruzzo: https://abruzzo.atlanteamr.it/
+- Molise: https://molise.atlanteamr.it/
+- Campania: https://campania.atlanteamr.it/
 - Sardegna: https://sardegna.atlanteamr.it/
 
 Statistiche di visita: GoatCounter (senza cookie, nessun dato personale memorizzato).

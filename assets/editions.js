@@ -1,22 +1,21 @@
-/* Basi delle edizioni regionali. Gli href nel markup sono il fallback senza JavaScript e devono restare uguali.
-   Lombardia, Emilia-Romagna e Sardegna restano sui sottodomini atlanteamr.it. */
+/* Basi delle edizioni regionali. Gli href nel markup sono il fallback senza JavaScript e devono restare uguali. */
 (function () {
   var editions = {
-    "valle-d-aosta": "https://aguaraglia.github.io/valle-d-aosta-one-health-amr-atlas/",
-    piemonte: "https://aguaraglia.github.io/piemonte-one-health-amr-atlas/",
+    "valle-d-aosta": "https://valle-d-aosta.atlanteamr.it/",
+    piemonte: "https://piemonte.atlanteamr.it/",
     lombardia: "https://lombardia.atlanteamr.it/",
-    "trentino-alto-adige": "https://aguaraglia.github.io/trentino-alto-adige-one-health-amr-atlas/",
-    veneto: "https://aguaraglia.github.io/veneto-one-health-amr-atlas/",
-    "friuli-venezia-giulia": "https://aguaraglia.github.io/friuli-venezia-giulia-one-health-amr-atlas/",
-    liguria: "https://aguaraglia.github.io/liguria-one-health-amr-atlas/",
+    "trentino-alto-adige": "https://trentino-alto-adige.atlanteamr.it/",
+    veneto: "https://veneto.atlanteamr.it/",
+    "friuli-venezia-giulia": "https://friuli-venezia-giulia.atlanteamr.it/",
+    liguria: "https://liguria.atlanteamr.it/",
     "emilia-romagna": "https://emilia-romagna.atlanteamr.it/",
-    toscana: "https://aguaraglia.github.io/toscana-one-health-amr-atlas/",
-    umbria: "https://aguaraglia.github.io/umbria-one-health-amr-atlas/",
-    marche: "https://aguaraglia.github.io/marche-one-health-amr-atlas/",
-    lazio: "https://aguaraglia.github.io/lazio-one-health-amr-atlas/",
-    abruzzo: "https://aguaraglia.github.io/abruzzo-one-health-amr-atlas/",
-    molise: "https://aguaraglia.github.io/molise-one-health-amr-atlas/",
-    campania: "https://aguaraglia.github.io/campania-one-health-amr-atlas/",
+    toscana: "https://toscana.atlanteamr.it/",
+    umbria: "https://umbria.atlanteamr.it/",
+    marche: "https://marche.atlanteamr.it/",
+    lazio: "https://lazio.atlanteamr.it/",
+    abruzzo: "https://abruzzo.atlanteamr.it/",
+    molise: "https://molise.atlanteamr.it/",
+    campania: "https://campania.atlanteamr.it/",
     sardegna: "https://sardegna.atlanteamr.it/"
   };
   var nodes = document.querySelectorAll("[data-edition]");
