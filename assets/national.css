@@ -297,7 +297,9 @@ a.pill-card em {
 .national-footer {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .8rem 1.4rem;
   max-width: 1240px;
   margin: 0 auto;
   padding: 1rem clamp(1rem, 2.6vw, 2.15rem) 2rem;
@@ -305,6 +307,11 @@ a.pill-card em {
   font-size: .75rem;
 }
 .national-footer a { color: #087d9c; font-weight: 700; text-decoration: none; }
+.national-footer .edition-links {
+  max-width: 860px;
+  line-height: 1.8;
+  text-align: right;
+}
 
 @media (max-width: 1180px) {
   .edition-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -351,4 +358,101 @@ a.pill-card em {
   mask-size: 100% 100%;
   width: 36px;
   height: 42px;
+}
+
+/* Sixteen regional editions do not fit the single header row. Same link style, opened as a grid. */
+.global-nav .region-menu { position: static; display: flex; align-items: stretch; }
+.global-nav .region-menu summary {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  border-bottom: 3px solid transparent;
+  color: #53697f;
+  font-size: .76rem;
+  font-weight: 750;
+  white-space: nowrap;
+  cursor: pointer;
+  list-style: none;
+}
+.global-nav .region-menu summary::-webkit-details-marker { display: none; }
+.global-nav .region-menu summary::after {
+  content: "";
+  width: .38rem;
+  height: .38rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-.12rem) rotate(45deg);
+}
+.global-nav .region-menu[open] summary,
+.global-nav .region-menu summary:hover,
+.global-nav .region-menu summary:focus-visible {
+  color: var(--atlas-blue, #1558b0);
+  border-bottom-color: var(--atlas-blue, #1558b0);
+}
+.global-nav .region-menu[open] summary::after { transform: translateY(.12rem) rotate(225deg); }
+.region-menu-panel {
+  position: absolute;
+  z-index: 30;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .15rem .35rem;
+  width: min(760px, calc(100vw - 2rem));
+  padding: .7rem;
+  border: 1px solid #d5e1eb;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 32px #183a5a14;
+}
+.global-nav .region-menu-panel a,
+.region-menu-panel .is-pending {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 2.6rem;
+  padding: .35rem .6rem;
+  border-bottom: 3px solid transparent;
+  color: #53697f;
+  font-size: .76rem;
+  font-weight: 750;
+  line-height: 1.25;
+  white-space: normal;
+  text-decoration: none;
+}
+.region-menu-panel .is-pending { color: #8aa0b3; cursor: default; }
+.region-menu-panel .is-pending small {
+  color: #8aa0b3;
+  font-size: .68rem;
+  font-weight: 650;
+  letter-spacing: .02em;
+}
+.global-nav .region-menu-panel a:hover,
+.global-nav .region-menu-panel a:focus-visible {
+  color: var(--atlas-blue, #1558b0);
+  border-bottom-color: var(--atlas-blue, #1558b0);
+}
+@media (max-width: 1120px) {
+  .global-nav .region-menu summary,
+  .global-nav .region-menu-panel a,
+  .region-menu-panel .is-pending { font-size: .7rem; }
+}
+@media (max-width: 900px) {
+  .global-nav .region-menu summary { min-height: 44px; font-size: .7rem; }
+  .region-menu-panel {
+    position: fixed;
+    top: 108px;
+    right: .8rem;
+    left: .8rem;
+    width: auto;
+    transform: none;
+    grid-template-columns: 1fr 1fr;
+    max-height: calc(100vh - 124px);
+    overflow: auto;
+  }
+}
+@media (max-width: 620px) {
+  .national-footer .edition-links { max-width: none; text-align: left; }
 }
