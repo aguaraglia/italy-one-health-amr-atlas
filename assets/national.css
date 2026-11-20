@@ -348,11 +348,6 @@ a.pill-card em {
   width: 44px;
   height: 44px;
 }
-/* Emilia-Romagna is a wide, low outline: scale it so the profile stays legible in the tile. */
-.edition-mark.edition-mark-emilia img {
-  width: 46px;
-  height: 46px;
-}
 .global-brand .brand-code-icon[style*="italia-mark"] {
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
@@ -409,9 +404,10 @@ a.pill-card em {
 .global-nav .region-menu-panel a,
 .region-menu-panel .is-pending {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: .45rem;
+  justify-content: flex-start;
   min-height: 2.6rem;
   padding: .35rem .6rem;
   border-bottom: 3px solid transparent;
@@ -421,6 +417,20 @@ a.pill-card em {
   line-height: 1.25;
   white-space: normal;
   text-decoration: none;
+}
+.region-menu-panel img {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  object-fit: contain;
+}
+.region-menu-panel img.is-sardegna {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(63%) saturate(1480%) hue-rotate(180deg) brightness(87%) contrast(99%);
+}
+.region-menu-panel .is-pending span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .region-menu-panel .is-pending { color: #8aa0b3; cursor: default; }
 .region-menu-panel .is-pending small {
