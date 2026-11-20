@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atlante AMR · One Health Italia</title>
-  <meta name="description" content="Atlante AMR: portale nazionale delle edizioni regionali One Health sull’antimicrobico-resistenza (Sardegna, Lombardia, Emilia-Romagna). Evidenze documentate con fonte e anno. Un progetto di CodexVitae ETS.">
+  <meta name="description" content="Atlante AMR: portale nazionale delle edizioni regionali One Health sull’antimicrobico-resistenza. Evidenze documentate con fonte e anno. Un progetto di CodexVitae ETS.">
   <meta name="author" content="CodexVitae ETS">
   <link rel="canonical" href="https://atlanteamr.it/">
   <meta property="og:type" content="website">
@@ -23,7 +23,33 @@
   <header class="global-site-header">
     <div class="global-header-inner">
       <a class="global-brand" href="./" aria-label="Atlante AMR · One Health Italia"><span class="brand-code brand-code-icon" style="--brand-icon:url('/public/brand/italia-mark.svg')" aria-hidden="true">ITA</span><span class="global-brand-name">Italia<br>One Health</span><span class="global-brand-divider" aria-hidden="true"></span><span class="global-brand-atlas">Atlante<br>AMR</span></a>
-      <nav class="global-nav" aria-label="Navigazione principale"><a class="active" href="./">Portale</a><a data-edition="sardegna" href="https://sardegna.atlanteamr.it/">Sardegna</a><a data-edition="lombardia" href="https://lombardia.atlanteamr.it/">Lombardia</a><a data-edition="emilia-romagna" href="https://emilia-romagna.atlanteamr.it/">Emilia-Romagna</a><a href="#progetto">Progetto</a><a href="#pillole">Divulgazione</a></nav>
+      <nav class="global-nav" aria-label="Navigazione principale">
+        <a class="active" href="./">Portale</a>
+        <details class="region-menu">
+          <summary>Edizioni</summary>
+          <div class="region-menu-panel">
+            <span class="is-pending">Italia <small>In preparazione</small></span>
+            <a data-edition="valle-d-aosta" href="https://aguaraglia.github.io/valle-d-aosta-one-health-amr-atlas/">Valle d’Aosta</a>
+            <a data-edition="piemonte" href="https://aguaraglia.github.io/piemonte-one-health-amr-atlas/">Piemonte</a>
+            <a data-edition="lombardia" href="https://lombardia.atlanteamr.it/">Lombardia</a>
+            <a data-edition="trentino-alto-adige" href="https://aguaraglia.github.io/trentino-alto-adige-one-health-amr-atlas/">Trentino-Alto Adige</a>
+            <a data-edition="veneto" href="https://aguaraglia.github.io/veneto-one-health-amr-atlas/">Veneto</a>
+            <a data-edition="friuli-venezia-giulia" href="https://aguaraglia.github.io/friuli-venezia-giulia-one-health-amr-atlas/">Friuli Venezia Giulia</a>
+            <a data-edition="liguria" href="https://aguaraglia.github.io/liguria-one-health-amr-atlas/">Liguria</a>
+            <a data-edition="emilia-romagna" href="https://emilia-romagna.atlanteamr.it/">Emilia-Romagna</a>
+            <a data-edition="toscana" href="https://aguaraglia.github.io/toscana-one-health-amr-atlas/">Toscana</a>
+            <a data-edition="umbria" href="https://aguaraglia.github.io/umbria-one-health-amr-atlas/">Umbria</a>
+            <a data-edition="marche" href="https://aguaraglia.github.io/marche-one-health-amr-atlas/">Marche</a>
+            <a data-edition="lazio" href="https://aguaraglia.github.io/lazio-one-health-amr-atlas/">Lazio</a>
+            <a data-edition="abruzzo" href="https://aguaraglia.github.io/abruzzo-one-health-amr-atlas/">Abruzzo</a>
+            <a data-edition="molise" href="https://aguaraglia.github.io/molise-one-health-amr-atlas/">Molise</a>
+            <a data-edition="campania" href="https://aguaraglia.github.io/campania-one-health-amr-atlas/">Campania</a>
+            <a data-edition="sardegna" href="https://sardegna.atlanteamr.it/">Sardegna</a>
+          </div>
+        </details>
+        <a href="#progetto">Progetto</a>
+        <a href="#pillole">Divulgazione</a>
+      </nav>
     </div>
   </header>
 
@@ -83,11 +109,18 @@
               <p>Quadro nazionale in preparazione. Non sarà la somma dei dati regionali: ogni edizione conserva fonti, scala e limiti propri.</p>
               <span class="rail-link">In preparazione</span>
             </article>
-            <a class="edition-card" data-edition="sardegna" href="https://sardegna.atlanteamr.it/">
-              <span class="edition-mark edition-silhouette" aria-hidden="true"><img src="public/brand/sardinia-island-icon.png" alt=""></span>
+            <a class="edition-card" data-edition="valle-d-aosta" href="https://aguaraglia.github.io/valle-d-aosta-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">VDA</span>
               <p class="section-kicker">EDIZIONE PUBBLICATA</p>
-              <h3>Sardegna</h3>
-              <p>Sardinia One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <h3>Valle d’Aosta</h3>
+              <p>Valle d’Aosta One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="piemonte" href="https://aguaraglia.github.io/piemonte-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">PIE</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Piemonte</h3>
+              <p>Piemonte One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
               <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
             </a>
             <a class="edition-card" data-edition="lombardia" href="https://lombardia.atlanteamr.it/">
@@ -97,11 +130,95 @@
               <p>Lombardy One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
               <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
             </a>
+            <a class="edition-card" data-edition="trentino-alto-adige" href="https://aguaraglia.github.io/trentino-alto-adige-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">TAA</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Trentino-Alto Adige</h3>
+              <p>Trentino-Alto Adige One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="veneto" href="https://aguaraglia.github.io/veneto-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">VEN</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Veneto</h3>
+              <p>Veneto One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="friuli-venezia-giulia" href="https://aguaraglia.github.io/friuli-venezia-giulia-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">FVG</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Friuli Venezia Giulia</h3>
+              <p>Friuli Venezia Giulia One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="liguria" href="https://aguaraglia.github.io/liguria-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">LIG</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Liguria</h3>
+              <p>Liguria One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
             <a class="edition-card" data-edition="emilia-romagna" href="https://emilia-romagna.atlanteamr.it/">
               <span class="edition-mark edition-silhouette edition-mark-emilia" aria-hidden="true"><img src="public/brand/emilia-romagna-region-mark.svg" alt=""></span>
               <p class="section-kicker">EDIZIONE PUBBLICATA</p>
               <h3>Emilia-Romagna</h3>
               <p>Emilia-Romagna One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="toscana" href="https://aguaraglia.github.io/toscana-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">TOS</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Toscana</h3>
+              <p>Toscana One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="umbria" href="https://aguaraglia.github.io/umbria-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">UMB</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Umbria</h3>
+              <p>Umbria One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="marche" href="https://aguaraglia.github.io/marche-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">MAR</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Marche</h3>
+              <p>Marche One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="lazio" href="https://aguaraglia.github.io/lazio-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">LAZ</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Lazio</h3>
+              <p>Lazio One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="abruzzo" href="https://aguaraglia.github.io/abruzzo-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">ABR</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Abruzzo</h3>
+              <p>Abruzzo One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="molise" href="https://aguaraglia.github.io/molise-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">MOL</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Molise</h3>
+              <p>Molise One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="campania" href="https://aguaraglia.github.io/campania-one-health-amr-atlas/">
+              <span class="edition-mark" aria-hidden="true">CAM</span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Campania</h3>
+              <p>Campania One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
+              <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="edition-card" data-edition="sardegna" href="https://sardegna.atlanteamr.it/">
+              <span class="edition-mark edition-silhouette" aria-hidden="true"><img src="public/brand/sardinia-island-icon.png" alt=""></span>
+              <p class="section-kicker">EDIZIONE PUBBLICATA</p>
+              <h3>Sardegna</h3>
+              <p>Sardinia One Health AMR Atlas: evidenze documentate su uomo, animali, alimenti e ambiente.</p>
               <span class="rail-link">Apri l’atlante <span aria-hidden="true">→</span></span>
             </a>
           </div>
@@ -184,7 +301,7 @@
 
   <footer class="national-footer">
     <span>Atlante AMR · un progetto di CodexVitae ETS</span>
-    <span><a data-edition="sardegna" href="https://sardegna.atlanteamr.it/">Edizione Sardegna</a> · <a data-edition="lombardia" href="https://lombardia.atlanteamr.it/">Edizione Lombardia</a> · <a data-edition="emilia-romagna" href="https://emilia-romagna.atlanteamr.it/">Edizione Emilia-Romagna</a></span>
+    <span class="edition-links"><a data-edition="valle-d-aosta" href="https://aguaraglia.github.io/valle-d-aosta-one-health-amr-atlas/">Edizione Valle d’Aosta</a> · <a data-edition="piemonte" href="https://aguaraglia.github.io/piemonte-one-health-amr-atlas/">Edizione Piemonte</a> · <a data-edition="lombardia" href="https://lombardia.atlanteamr.it/">Edizione Lombardia</a> · <a data-edition="trentino-alto-adige" href="https://aguaraglia.github.io/trentino-alto-adige-one-health-amr-atlas/">Edizione Trentino-Alto Adige</a> · <a data-edition="veneto" href="https://aguaraglia.github.io/veneto-one-health-amr-atlas/">Edizione Veneto</a> · <a data-edition="friuli-venezia-giulia" href="https://aguaraglia.github.io/friuli-venezia-giulia-one-health-amr-atlas/">Edizione Friuli Venezia Giulia</a> · <a data-edition="liguria" href="https://aguaraglia.github.io/liguria-one-health-amr-atlas/">Edizione Liguria</a> · <a data-edition="emilia-romagna" href="https://emilia-romagna.atlanteamr.it/">Edizione Emilia-Romagna</a> · <a data-edition="toscana" href="https://aguaraglia.github.io/toscana-one-health-amr-atlas/">Edizione Toscana</a> · <a data-edition="umbria" href="https://aguaraglia.github.io/umbria-one-health-amr-atlas/">Edizione Umbria</a> · <a data-edition="marche" href="https://aguaraglia.github.io/marche-one-health-amr-atlas/">Edizione Marche</a> · <a data-edition="lazio" href="https://aguaraglia.github.io/lazio-one-health-amr-atlas/">Edizione Lazio</a> · <a data-edition="abruzzo" href="https://aguaraglia.github.io/abruzzo-one-health-amr-atlas/">Edizione Abruzzo</a> · <a data-edition="molise" href="https://aguaraglia.github.io/molise-one-health-amr-atlas/">Edizione Molise</a> · <a data-edition="campania" href="https://aguaraglia.github.io/campania-one-health-amr-atlas/">Edizione Campania</a> · <a data-edition="sardegna" href="https://sardegna.atlanteamr.it/">Edizione Sardegna</a></span>
   </footer>
   <script src="assets/editions.js"></script>
   <script data-goatcounter="https://atlanteamr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
